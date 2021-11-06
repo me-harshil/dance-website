@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lemonada', cursive, sans-serif, serif;
+}
+
+/* Navbar CSS */
+.nav {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    color: white;
+    font-size: 22px;
+    list-style: none;
+    padding: 20px 45px;
+}
+
+nav li:hover {
+    color: deeppink;
+    font-size: 28px;
+    cursor: pointer;
+}
+/* Navbar */
+/* Home Page CSS */
+#secImg {
+    height: 1200px;
+    width: auto;
+    background: url("https://source.unsplash.com/1600x1200/?dance, actress") no-repeat center;
+    background-size: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+    align-content: center;
+    justify-items: center;
+    color: white;
+}
+
+#secArt {
+    font-family: "Lemonada", cursive;
+    background-color: lightpink;
+    height: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 115px;
+}
+/* Home */
+/* About Page CSS */
+#about {
+    height: 100vh;
+    padding-top: 80px;
+}
+
+#aboutHeight {
+    min-height: 80.28vh;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#q1Header {
+    font-family: sans-serif, serif;
+    display: flex;
+    justify-content: left;
+}
+
+#ans1 {
+    font-family: 'Open Sans', sans-serif;
+}
+/* About */
+/* Join Page CSS */
+#join {
+    height: 100vh;
+    padding-top: 80px;
+}
+
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myInput {
+    width: 300px;
+    padding: 6px;
+    margin: 12px;
+    font-size: 14px;
+    border: 4px solid lightsteelblue;
+    border-radius: 20px;
+    font-family: serif;
+    outline: none;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+}
+
+.btn {
+    border: 4px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 8px 34px;
+    margin: 16px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+#address {
+    height: 70px;
+}
+/* Join */
+/* Contact Page CSS */
+#contact {
+    height: 100vh;
+    padding-top: 80px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myInput {
+    width: 300px;
+    padding: 6px;
+    margin: 12px;
+    font-size: 14px;
+    border: 4px solid lightsteelblue;
+    border-radius: 20px;
+    font-family: serif;
+    outline: none;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+}
+
+.btn {
+    border: 4px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 8px 34px;
+    margin: 16px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+/* Contact */
+/* Photos Page CSS */
+#photos {
+    padding-top: 70px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+/* Photos */
+/* Footer CSS */
+#footer {
+    background-color: rgb(219, 57, 211);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    font-size: 20px;
+  }
+/* Footer */
+
+/* Media Queries */
+@media only screen and (max-width: 500px) {
+    nav ul li{
+        font-size: 12px;
+        padding: 7px 9px;
+        margin: 10px 0px;
+    }
+    nav ul li:hover {
+        font-size: 12.4px;
+    }
+    #secImg {
+      background: url("https://source.unsplash.com/400x400/?dance, actress")
+        no-repeat center;
+      height: 25rem;
+      font-size: 24px;
+      background-size: cover;
+    }
+    #secArt {
+      padding: 20px;
+      font-size: 9px;
+    }
+    #about, #join, #contact, #photos{
+        padding-top: 50px;
+    }
+
+  }
+
