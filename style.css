@@ -53,15 +53,14 @@ nav li a:hover {
     color: white;
 }
 
-#secArt {
-    font-family: "Lemonada", cursive;
-    background-color: lightpink;
-    height: 12.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.quotes {
+    display: grid;
+    grid-auto-rows: auto;
+    background-color:rgb(255, 210, 216);
+    padding: 20px 0;
+    padding-left: 12px;
     align-items: center;
-    padding: 115px;
+    justify-items: center;
 }
 /* Home */
 /* About Page CSS */
@@ -84,10 +83,12 @@ h1 {
     font-family: sans-serif, serif;
     display: flex;
     justify-content: left;
+    padding-left: 10px;
 }
 
 #ans1 {
     font-family: 'Open Sans', sans-serif;
+    padding: 10px;
 }
 /* About */
 /* Join Page CSS */

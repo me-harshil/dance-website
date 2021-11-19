@@ -1,131 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Harshil Dance Academy</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- <script src="index.js"></script> -->
-</head>
+  </head>
 
-<body>
-<a href=""></a>
+  <body>
+    <a href=""></a>
     <!-- Navbar -->
     <nav class="nav" id="navbar">
-        <ul>
-            <li> <a href="#home">Home</a></li>
-            <li> <a href="#about">About</a></li>
-            <li> <a href="#join">Join Today</a></li>
-            <li> <a href="#contact">Contact Us</a></li>
-            <li> <a href="#photos">Dance Photos</a></li>
-        </ul>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#join">Join Today</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#photos">Dance Photos</a></li>
+      </ul>
     </nav>
     <!-- Navbar -->
     <!-- Home Page -->
     <div id="home">
-        <section id="secImg">
-            Welcome to Harshil's Dance Academy
-        </section>
-        <section id="secArt">
+      <section id="secImg">Welcome to Harshil's Dance Academy</section>
+      <section class="quotes" id="secArt">
+        <h2>
+          “When you dance, you can enjoy the luxury of being you.” — Paulo
+          Coelho
+        </h2>
+        <br />
+        <h2>
+          “We dance for laughter, we dance for tears, we dance for madness, we
+          dance for fears, we dance for hopes, we dance for screams, we are the
+          dancers, we create the dreams.” ― Albert Einstein
+        </h2> <br>
+        <div>
+            <h1>RUMI</h1>
+            <h1>The Dance</h1>
+            <h2>
+                <pre id="pre">
+        A hoat of angels dancing is a storm
+        Define the dance which never takes a form
 
-            <h2 style="font-family: 'Lemonada', cursive">
-                “When you dance, you can enjoy the luxury of being you.” — Paulo
-                Coelho
+    Who is that bride brought to her love today?
+    The moon has fetched its gold piled on a tray
+
+        Your destiny will shoot its arrows now
+    The ship will cut the waters with its prow
+
+    From shores of the Divine arrives the drift
+    Of truths that cause the human heart to lift
+
+    So when your soul departs you must not mourn
+        Your soul has merely gone to be reborn
+
+        The spirit that vast oceans can't contain
+            Is evident in every human stain.
+
+            </pre>
             </h2>
-            <br />
-            <h2 style="font-family: 'Lemonada', cursive">
-                “We dance for laughter, we dance for tears, we dance for madness, we
-                dance for fears, we dance for hopes, we dance for screams, we are the
-                dancers, we create the dreams.” ― Albert Einstein
-            </h2>
-        </section>
+        </div>
+      </section>
     </div>
     <!-- Home -->
-    <hr>
+    <hr />
     <!-- About Page -->
     <div id="about">
-        <h1 id="aboutHeader">About Dance</h1>
+      <h1 id="aboutHeader">About Dance</h1>
 
-        <h1 id="q1Header">What is Dance?</h1>
-        <p id="ans1">
-            Dance is a performing art form consisting of sequences of movement,
-            either improvised or purposefully selected. This movement has aesthetic
-            and often symbolic value. Dance can be categorized and described by its
-            choreography, by its repertoire of movements, or by its historical
-            period or place of origin.
-        </p>
+      <h1 id="q1Header">What is Dance?</h1>
+      <p id="ans1">
+        Dance is a performing art form consisting of sequences of movement,
+        either improvised or purposefully selected. This movement has aesthetic
+        and often symbolic value. Dance can be categorized and described by its
+        choreography, by its repertoire of movements, or by its historical
+        period or place of origin.
+      </p>
     </div>
     <!-- About -->
-    <hr>
+    <hr />
     <!-- Join Page -->
     <div id="join">
-        <h1>Join Today</h1>
-        <form class="myForm" action="/contact" method="post">
-            <input class="myInput" type="text" name="name" placeholder="Enter your name" />
-            <input class="myInput" type="gender" name="gender" placeholder="Enter your gender" />
-            <input class="myInput" type="age" name="age" placeholder="Enter your age" />
-            <input class="myInput" type="e-mail" name="e-mail" placeholder="Enter your e-mail" />
-            <input class="myInput" type="phone" name="phone" placeholder="Enter your phone number" />
-            <input class="myInput" id="address" type="address" name="address" placeholder="Enter your address" />
+      <h1>Join Today</h1>
+      <form class="myForm" action="/contact" method="post">
+        <input
+          class="myInput"
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+        />
+        <input
+          class="myInput"
+          type="gender"
+          name="gender"
+          placeholder="Enter your gender"
+        />
+        <input
+          class="myInput"
+          type="age"
+          name="age"
+          placeholder="Enter your age"
+        />
+        <input
+          class="myInput"
+          type="e-mail"
+          name="e-mail"
+          placeholder="Enter your e-mail"
+        />
+        <input
+          class="myInput"
+          type="phone"
+          name="phone"
+          placeholder="Enter your phone number"
+        />
+        <input
+          class="myInput"
+          id="address"
+          type="address"
+          name="address"
+          placeholder="Enter your address"
+        />
 
-            <button class="btn">Submit</button>
-        </form>
+        <button class="btn">Submit</button>
+      </form>
     </div>
     <!-- Join -->
-    <hr>
+    <hr />
     <!-- Contact Page -->
     <div id="contact">
-        <h1>Contact Us</h1>
-        <form class="myForm" action="/contact" method="post">
-            <input class="myInput" type="text" name="name" placeholder="Enter your name" />
-            <input class="myInput" type="e-mail" name="e-mail" placeholder="Enter your e-mail" />
-            <input class="myInput" type="phone" name="phone" placeholder="Enter your phone number" />
-            <input class="myInput" type="query" name="query" placeholder="Enter your query" />
+      <h1>Contact Us</h1>
+      <form class="myForm" action="/contact" method="post">
+        <input
+          class="myInput"
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+        />
+        <input
+          class="myInput"
+          type="e-mail"
+          name="e-mail"
+          placeholder="Enter your e-mail"
+        />
+        <input
+          class="myInput"
+          type="phone"
+          name="phone"
+          placeholder="Enter your phone number"
+        />
+        <input
+          class="myInput"
+          type="query"
+          name="query"
+          placeholder="Enter your query"
+        />
 
-            <button class="btn">Submit</button>
-        </form>
+        <button class="btn">Submit</button>
+      </form>
     </div>
     <!-- Contact -->
-    <hr>
+    <hr />
     <!-- Photos Page -->
     <div id="photos">
+      <div>
+        <video autoplay loop width="100%" height="auto">
+          <source src="couple-on-the-dance-floor-having-fun.mp4" />
+        </video>
+      </div>
 
+      <div>
+        <img src="people.jpg" alt="dancer" id="ph1" />
+        <img src="balance.jpg" alt="dancer" id="ph2" />
         <div>
-            <video autoplay loop width="100%" height="auto">
-                <source src="couple-on-the-dance-floor-having-fun.mp4" />
-            </video>
+          <video autoplay loop width="100%" height="auto">
+            <source src="woman-dancing-and-spinning.mp4" />
+          </video>
         </div>
-
+        <img src="agility.jpg" alt="dancer" id="ph3" />
+        <img src="female.jpg" alt="dancer" id="ph4" />
         <div>
-            <img src="people.jpg" alt="dancer" id="ph1" />
-            <img src="balance.jpg" alt="dancer" id="ph2" />
-            <div>
-                <video autoplay loop width="100%" height="auto">
-                    <source src="woman-dancing-and-spinning.mp4" />
-                </video>
-            </div>
-            <img src="agility.jpg" alt="dancer" id="ph3" />
-            <img src="female.jpg" alt="dancer" id="ph4" />
-            <div>
-                <video autoplay loop width="100%" height="auto">
-                    <source src="young-black-haired-girl-dancing.mp4" />
-                </video>
-            </div>
-            <img src="stripper.jpg" alt="dancer" id="ph5" />
-            <img src="friendship.jpg" alt="dancer" id="ph6" />
+          <video autoplay loop width="100%" height="auto">
+            <source src="young-black-haired-girl-dancing.mp4" />
+          </video>
         </div>
+        <img src="stripper.jpg" alt="dancer" id="ph5" />
+        <img src="friendship.jpg" alt="dancer" id="ph6" />
+      </div>
     </div>
     <!-- Photos -->
     <!-- Footer -->
     <footer>
-        <div id="footer">
-            &#169;2021 Harshil Dance Academy | All rights reserved
-        </div>
+      <div id="footer">
+        &#169;2021 Harshil Dance Academy | All rights reserved
+      </div>
     </footer>
     <!-- Footer -->
-
-</body>
-
+  </body>
 </html>
