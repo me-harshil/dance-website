@@ -42,7 +42,7 @@ nav li a:hover {
 #secImg {
     height: 1200px;
     width: auto;
-    background: url("https://source.unsplash.com/1600x1200/?dance, actress") no-repeat center;
+    background: url("https://source.unsplash.com/1600x1200/?dance") no-repeat center;
     background-size: inherit;
     display: flex;
     align-items: center;
@@ -224,15 +224,15 @@ video {
         font-size: 12.2px;
     }
     #secImg {
-      background: url("https://source.unsplash.com/400x400/?dance, actress")
+      background: url("https://source.unsplash.com/400x400/?dance")
         no-repeat center;
       height: 25rem;
       font-size: 24px;
       background-size: cover;
     }
-    #secArt {
-      padding: 20px;
-      font-size: 9px;
+    .quotes {
+      padding: 12px;
+      font-size: 7px;
     }
     #about, #join, #contact, #photos{
             padding-top: 120px;
