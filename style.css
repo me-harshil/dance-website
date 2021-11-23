@@ -61,6 +61,7 @@ nav li a:hover {
     padding-left: 12px;
     align-items: center;
     justify-items: center;
+    overflow: auto;
 }
 /* Home */
 /* About Page CSS */
